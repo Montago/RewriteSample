@@ -1,22 +1,22 @@
 ﻿using System.Web.Mvc;
 
-namespace RewriteSample.Areas.Area1
+namespace Area51
 {
-    public class Area1AreaRegistration : AreaRegistration
+    public class Area51AreaRegistration : AreaRegistration
     {
         public override string AreaName
         {
             get
             {
-                return "Area1";
+                return "Area51";
             }
         }
 
         public override void RegisterArea(AreaRegistrationContext context)
         {
             context.MapRoute(
-                "Area1_default",
-                "Area1/{controller}/{action}/{id}",
+                "Area51_default",
+                "Area51/{controller}/{action}/{id}",
                 new
                 {
                     controller = "Home",
