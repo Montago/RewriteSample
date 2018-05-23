@@ -16,7 +16,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <!-- Seems to Work -->
+                @Html.ActionLink("Application name", "Foobar", "Home", new { area = "Area2" }, new { @class = "navbar-brand" })
+
+                <!-- Throws exception -->
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "Area2" }, new { @class = "navbar-brand" })
+
+                <!-- Seems to Work -->
+                <a href="@Url.Action("About", "Home")">About</a>
+
+                <!-- Throws exception -->
+                <a href="@Url.Action("Index", "Home")">Index</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
