@@ -23,6 +23,12 @@
                 <!-- Throws exception -->
                 @Html.ActionLink("Application name", "Index", "Home", new { area = "Area51" }, new { @class = "navbar-brand" })
 
+                <!-- Seems to Work -->
+                <a href="@Url.Action("About", "Home")">About</a>
+
+                <!-- Throws exception -->
+                <a href="@Url.Action("Index", "Home")">Index</a>
+
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
