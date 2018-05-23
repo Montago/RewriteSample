@@ -14,7 +14,7 @@
     127.0.0.1	Area51.com
 
  2. Add IIS Application
-	Create 2 bindings to site/application: 
+	Create bindings to site/application: 
 	
 	http port 80 -> www.Area1.com 
 	
