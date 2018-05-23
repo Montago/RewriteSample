@@ -1,14 +1,13 @@
-Will become a heading
+URL Rewrite Sample
 ==============
 
-Will become a sub heading
+How to setup:
 --------------
 
-*This will be Italic*
+- 1. Add HOSTS entries
+127.0.0.1 Area1.com
+127.0.0.1 Area2.com
 
-**This will be Bold**
+- 2. Add IIS Application
+Create 2 bindings to site: www.Area1.com & www.Area2.com
 
-- This will be a list item
-- This will be a list item
-
-    Add a indent and this will end up as code
