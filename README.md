@@ -15,6 +15,7 @@
 
  2. Add IIS Application
 	Create 2 bindings to site/application: 
+	
 	http port 80 -> www.Area1.com 
 	
 	http port 80 -> www.Area2.com
