@@ -26,5 +26,10 @@ namespace Area51.Controllers
 
             return View();
         }
+
+        public ActionResult Foobar()
+        {
+            return View();
+        }
     }
 }
